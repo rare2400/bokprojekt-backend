@@ -10,6 +10,7 @@ export function buildApp() {
     // Allow all cross-origin requests for now
     app.register(cors, {
         origin: "*",
+        methods: ["GET", "POST", "PUT", "DELETE"],
     });
 
     // JWT-plugin for authentication
