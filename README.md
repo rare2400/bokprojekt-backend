@@ -1,7 +1,7 @@
 # Bokrecensions API med Fastify och MongoDB
 Ett RESTful API byggt med Fastify och MongoDb för en bokrecensionsplattform. Webbtjänsten hanterar användare 
 och bokrecensioner som stöds av full CRUD-funktionalitet (Create, Read, Update, Delete). Data skyddas av JWT 
-och inloggad användare kan för att lägga till inlägg samt ändra och radera sina befintliga bokrecensioner. 
+där inloggad användare kan lägga till bokrecensioner, samt ändra och radera sina befintliga recensioner. 
 Boksökningen i frontend-applikationen sker med Google Books API, för att hitta böcker och lägga till recensioner.
 
 ## Verktyg
