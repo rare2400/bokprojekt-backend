@@ -65,6 +65,8 @@ export async function createReview(request, reply) {
 
         await newReview.save();
 
+        await newReview.populate("userId", "username");
+
         return reply.code(201).send(newReview);
     } catch (error) {
         console.error("Error creating review:", error);
@@ -104,6 +106,8 @@ export async function updateReview(request, reply) {
         }
 
         await review.save();
+
+        await review.populate("userId", "username");
 
         return reply.send(review);
     } catch (error) {
