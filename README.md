@@ -4,6 +4,8 @@ och bokrecensioner som stöds av full CRUD-funktionalitet (Create, Read, Update,
 där inloggad användare kan lägga till bokrecensioner, samt ändra och radera sina befintliga recensioner. 
 Boksökningen i frontend-applikationen sker med Google Books API, för att hitta böcker och lägga till recensioner.
 
+**Publicerad API-URL:** [https://bokprojekt-backend.onrender.com](https://bokprojekt-backend.onrender.com)
+
 ## Verktyg
 * **Node.js** (ESM)
 * **Fastify** - Ramverk
