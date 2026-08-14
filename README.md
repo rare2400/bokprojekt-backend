@@ -6,6 +6,10 @@ Boksökningen i frontend-applikationen sker med Google Books API, för att hitta
 
 **Publicerad API-URL:** [https://bokprojekt-backend.onrender.com](https://bokprojekt-backend.onrender.com)
 
+## Frontendapplikation
+**Github repo:** [https://github.com/rare2400/bookreview-frontend.git](https://github.com/rare2400/bookreview-frontend.git)     
+**Publicerad frontend:** [https://bokrecensionapp.netlify.app/](https://bokrecensionapp.netlify.app/)
+
 ## Verktyg
 * **Node.js** (ESM)
 * **Fastify** - Ramverk
